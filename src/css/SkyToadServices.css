@@ -1,0 +1,42 @@
+.services-wrapper {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.header {
+  background: #99d4f0;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.header h2 {
+  font-size: 20px;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}

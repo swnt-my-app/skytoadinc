@@ -1,12 +1,15 @@
 import React from "react";
+import SkyToadServices from "./Services";
+import Navbar from "../common/Navbar";
+import ImageSlider from "../common/ImageSlider";
 
 function Home() {
   return (
     <div className="home">
+      <Navbar />
+      <ImageSlider />
       <section className="hero">
-        <h1>Welcome to SkyToad Inc.</h1>
-        <p>Your Partner in Growth & Strategy</p>
-        <a href="/services"><button>Explore Services</button></a>
+        <SkyToadServices/>
       </section>
     </div>
   );
