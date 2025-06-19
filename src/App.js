@@ -4,7 +4,6 @@ import Services from "./pages/Services";
 import CaseStudies from "./pages/CaseStudies";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Navbar from "./common/Navbar";
 
 function App() {
   return (
