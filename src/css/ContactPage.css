@@ -1,0 +1,10 @@
+form .form-control,
+form .form-select {
+  border-radius: 0;
+  height: 48px;
+}
+
+textarea.form-control {
+  height: auto;
+  resize: none;
+}
